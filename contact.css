@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+
+.header {
+    height: 2.5cm; 
+    background-color:#3A8399; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+
+.header2 {
+    height: 1.5cm; 
+    background-color: #F9951E; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-family: "Raleway", sans-serif;
+}
+
+h2 {
+    text-align: right;
+    font-size: 30px;
+    margin: 5cm;
+    margin-top: 2cm;
+    color: #3A8399;
+    font-family: "Unbounded", sans-serif;
+    line-height: 0.5;
+    
+
+}
+
+.formulario {
+    width: 50%; 
+    margin-left: 20px; 
+    margin: 5cm;
+    font-family: "Raleway", sans-serif;
+}
+
+
+.pregunta-respuesta {
+    margin-bottom: 20px; 
+    font-family: "Raleway", sans-serif;
+}
+
+
+.pregunta label {
+    display: block; 
+    font-family: "Raleway", sans-serif;
+}
+
+
+.respuesta input[type="text"],
+.respuesta select,
+.respuesta textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px; 
+    font-family: "Raleway", sans-serif;
+    background-color: #f0f0f0;
+    border: none;
+
+}
+
+
+.boton-enviar {
+    background-color: #F9951E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: "Raleway", sans-serif;
+}
+
+.boton-enviar:hover {
+    background-color: #d98013;
+}
+
+.footer {
+    padding: 80px 0; 
+    text-align: center; 
+}
+
+
+.footer-image {
+    max-width: 100%; 
+    height: auto; 
+}

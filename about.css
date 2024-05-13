@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
+
+.header {
+    height: 2.5cm; 
+    background-color:#3A8399; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.logo {
+    width: 150px; 
+    height: auto; 
+}
+
+.header2 {
+    height: 1.5cm; 
+    background-color: #F9951E; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; 
+    font-family: "Raleway", sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-family: "Raleway", sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    margin: 2cm;
+    border-radius: 10px;
+}
+
+.texto {
+    flex: 1; 
+    padding: 20px; 
+    color: #3A8399;
+    font-family: "Unbounded", sans-serif;
+    
+
+}
+
+.imagen {
+   
+    flex: 1; 
+    border-radius: 30px;
+    padding: auto;
+    
+}
+
+
+.texto h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+.parrafo {
+    margin-bottom: 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #2B2B2B;
+}
+
+
+.imagen img {
+    width: 80%; 
+    height: auto; 
+    margin-left: 3cm;
+    border-radius: 30px;
+}
+
+.imagenes-pequenas {
+    position:static; 
+    bottom: 0; 
+    right: 0; 
+    display: flex; 
+    border-radius: 30px;
+    
+}
+
+
+.imagen-pequena {
+    width: 400px; 
+    height: auto; 
+    margin-left: 10px; 
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.habilidades {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 50px;
+    font-family: "Unbounded", sans-serif;
+    padding: 20px; 
+    color: #3A8399;
+}
+
+.graficas {
+    display: flex;
+    flex-wrap: wrap; /* Envuelve los elementos en varias líneas */
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    color: #2B2B2B;
+    font-size: 20px;
+}
+
+.item {
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+    text-align: center; 
+}
+
+.imagen {
+    width: 10%; 
+    height: auto;
+   
+}
+
+.footer {
+    padding: 80px 0;
+    text-align: center; 
+}
+
+
+.footer-image {
+    max-width: 100%; 
+    height: auto; 
+}
